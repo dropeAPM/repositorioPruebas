@@ -6,6 +6,12 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <form action="get">
+        <input type="text" name="user" id="user" placeholder="Usuario">
+        <input type="password" name="password" id="password">
+        <input type="button" name="btn" id="btn" onclick="createUser(document.getElementById(user).value,document.getElementById(password).value)" value="Crear Usuario">
+    </form>
+
+    <script src="js/index.js"></script>
 </body>
 </html>
